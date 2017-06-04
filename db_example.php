@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "raw_user";
 $password = "raw_pass";
-$database = "raw_database";
+$database = "fbevents";
 
 $mysqli = new mysqli($host, $user, $password, $database);
 if ($mysqli->connect_errno) {
