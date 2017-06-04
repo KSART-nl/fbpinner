@@ -93,39 +93,3 @@ foreach($ical->events() as $event) {
 exec("php fieldmap.php");
 //header("Content-Type: application/json;charset=utf-8");
 //echo json_encode(array_utf8_encode($all_events));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//"kigkonsult/icalcreator": "dev-master"
-// $v = new vcalendar();
-// //$v->setConfig('url', 'webcal://www.facebook.com/ical/u.php?uid=1673551095&key=AQDjJ60DnCAFsvo5');
-// $config = array( "directory" => "calendar", "filename" => "fbevents.ics" );
-// $v->setConfig($config); // set directory and file name
-// $v->parse();
-// $v->sort();
-
-// while( $comp = $v->getComponent()) {
-// 	print_r($comp);
-// }
